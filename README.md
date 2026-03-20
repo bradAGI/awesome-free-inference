@@ -2,7 +2,7 @@
   <img src="banner.png" alt="Free Inference Banner" width="100%">
 </p>
 
-<h1 align="center">Free Inference</h1>
+<h1 align="center">Awesome Free Inference</h1>
 
 <p align="center">
   A comprehensive guide to free AI/LLM inference APIs — no credit card required, no expiry.
