@@ -38,20 +38,47 @@
 
 ### Google AI Studio
 
-| Model | LiteLLM ID | RPM | Daily Cap | Context | Max Output | Features |
-|-------|-----------|-----|-----------|---------|------------|----------|
-| Gemini 2.5 Pro | — | 5 | 100 req | 1M | 8K | Vision, function calling |
-| Gemini 2.5 Flash | — | 15 | 500 req | 1M | 8K | Vision, function calling |
-| Gemini 2.5 Flash-Lite | — | 15 | 1,000 req | 1M | 8K | Vision |
-| Gemini 2.0 Flash | — | 15 | 1,500 req | 1M | 8K | Vision, function calling |
-| Gemini Exp 1206 | `gemini/gemini-exp-1206` | — | — | 2M | 8K | Vision, function calling |
-| Gemini Exp 1114 | `gemini/gemini-exp-1114` | — | — | 1M | 8K | Vision, function calling |
-| Gemma 3 27B | `gemini/gemma-3-27b-it` | 15 | — | 131K | 8K | Vision, function calling |
-| LearnLM 1.5 Pro Exp | `gemini/learnlm-1.5-pro-experimental` | — | — | 32K | 8K | Vision, function calling |
+**Text & Chat Models (Free)**
+
+| Model | RPM | TPM | RPD |
+|-------|-----|-----|-----|
+| Gemini 2.5 Pro | 1K | 5M | 50K |
+| Gemini 3 Flash (preview) | 2K | 3M | 100K |
+| Gemini 2.5 Flash | 2K | 3M | 100K |
+| Gemini 3.1 Flash Lite (preview) | 10K | 10M | 350K |
+| Gemini 2.5 Flash Lite | 10K | 10M | Unlimited |
+
+**Gemma Models (Free)**
+
+| Model | RPM | TPM | RPD |
+|-------|-----|-----|-----|
+| Gemma 3 27B | 30 | 15K | 14.4K |
+| Gemma 3 12B | 30 | 15K | 14.4K |
+| Gemma 3 4B | 30 | 15K | 14.4K |
+| Gemma 3 2B | 30 | 15K | 14.4K |
+| Gemma 3 1B | 30 | 15K | 14.4K |
+
+**TTS, Audio, Embeddings & Other (Free)**
+
+| Model | RPM | TPM | RPD |
+|-------|-----|-----|-----|
+| Gemini 2.5 Flash TTS | 1K | 100K | 10K |
+| Gemini 2.5 Flash Native Audio Dialog | Unlimited | 10M | Unlimited |
+| Gemini Embedding 2 | 5K | 5M | Unlimited |
+| Gemini Embedding 1 | 5K | 5M | Unlimited |
+| Gemini Robotics ER 1.5 Preview | 2K | 3M | 100K |
+
+**Search & Map Grounding (Free)**
+
+| Models | Feature | RPD |
+|--------|---------|-----|
+| Gemini 2/2.5/3/3.1 models | Search grounding | 1.5K–5K |
+| Gemini 2.5/3/3.1 models | Map grounding | Unlimited |
 
 - **Sign-up:** [ai.google.dev](https://ai.google.dev) (Google account)
 - **OpenAI-compatible:** Yes
-- **Multimodal:** Yes (text, image, video, audio)
+- **Multimodal:** Yes (text, audio, TTS, embeddings)
+- **Highlight:** Most generous free tier — flagship Gemini 2.5 Pro at 50K RPD, plus TTS, embeddings, live audio, and search/map grounding all free
 
 ### Groq
 
