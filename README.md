@@ -375,6 +375,7 @@ Also available: FunctionGemma, ShieldGemma (0.6B) — tool calling and safety va
 | Provider | Models | Free Credits | Card Required | Validity |
 |----------|--------|-------------|---------------|----------|
 | **Kluster AI** | DeepSeek R1, Llama 4 Maverick/Scout, Qwen3 235B +10 more | $5 | No | — |
+| **OpenNode** | GPT-4o, Claude 3.5 Haiku, Gemini 2.5 Flash | 10 ONC free on signup (~$1) | No | Decentralized GPU compute marketplace |
 | **xAI** | Grok 4, Grok 4.1 Fast (2M ctx) | $25 | No (initially) | — |
 | **DeepSeek** | V3, R1 | 5M tokens | No | 30 days |
 | **SambaNova** | Llama 3.3 70B, 3.1 405B, Qwen 2.5 72B | $5 + free tier after | No | 30 days (credits) |
@@ -485,6 +486,7 @@ response = client.chat.completions.create(
 | LLM7.io | `https://api.llm7.io/v1` |
 | Ollama Cloud | `https://ollama.com/v1/` |
 | Kluster AI | `https://api.kluster.ai/v1` |
+| OpenNode | `https://onc.mom/v1` |
 
 ---
 
